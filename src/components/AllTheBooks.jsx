@@ -12,7 +12,7 @@ class AllTheBooks extends Component {
   render() {
     return (
       <Container className="pb-5">
-        <h2 className="display-4 pt-5">Sezione fantasy:</h2>
+        <h2 className="display-4 pt-5">Sezione Fantasy:</h2>
         <Row style={{ overflow: "auto" }} className="pt-3 flex-nowrap">
           {books1.map((book, index) => (
             <Col key={`Book-${index}`} className="pb-3 px-2">
@@ -26,7 +26,7 @@ class AllTheBooks extends Component {
             </Col>
           ))}
         </Row>
-        <h2 className="display-4 pt-5">Sezione history:</h2>
+        <h2 className="display-4 pt-5">Sezione History:</h2>
         <Row style={{ overflow: "auto" }} className="pt-3 flex-nowrap">
           {books2.map((book, index) => (
             <Col key={`Book-${index}`} className="pb-3 px-2">
@@ -40,7 +40,7 @@ class AllTheBooks extends Component {
             </Col>
           ))}
         </Row>
-        <h2 className="display-4 pt-5">Sezione horror:</h2>
+        <h2 className="display-4 pt-5">Sezione Horror:</h2>
         <Row style={{ overflow: "auto" }} className="pt-3 flex-nowrap">
           {books3.map((book, index) => (
             <Col key={`Book-${index}`} className="pb-3 px-2">
