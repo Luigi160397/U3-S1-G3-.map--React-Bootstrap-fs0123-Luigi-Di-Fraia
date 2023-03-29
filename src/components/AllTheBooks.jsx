@@ -15,7 +15,7 @@ class AllTheBooks extends Component {
         <h2 className="display-4 pt-5">Sezione Fantasy:</h2>
         <Row style={{ overflow: "auto" }} className="pt-3 flex-nowrap">
           {books1.map((book, index) => (
-            <Col key={`Book-${index}`} className="pb-3 px-2">
+            <Col key={`Fantasy-${index}`} className="pb-3 px-2">
               <Card className="shadow libri">
                 <Card.Img variant="top" className="img-fluid" id="image-card" src={book.img} />
                 <Card.Body>
@@ -29,7 +29,7 @@ class AllTheBooks extends Component {
         <h2 className="display-4 pt-5">Sezione History:</h2>
         <Row style={{ overflow: "auto" }} className="pt-3 flex-nowrap">
           {books2.map((book, index) => (
-            <Col key={`Book-${index}`} className="pb-3 px-2">
+            <Col key={`History-${index}`} className="pb-3 px-2">
               <Card className="shadow libri">
                 <Card.Img variant="top" className="img-fluid" id="image-card" src={book.img} />
                 <Card.Body>
@@ -43,7 +43,7 @@ class AllTheBooks extends Component {
         <h2 className="display-4 pt-5">Sezione Horror:</h2>
         <Row style={{ overflow: "auto" }} className="pt-3 flex-nowrap">
           {books3.map((book, index) => (
-            <Col key={`Book-${index}`} className="pb-3 px-2">
+            <Col key={`Horror-${index}`} className="pb-3 px-2">
               <Card className="shadow libri">
                 <Card.Img variant="top" className="img-fluid" id="image-card" src={book.img} />
                 <Card.Body>
@@ -57,7 +57,7 @@ class AllTheBooks extends Component {
         <h2 className="display-4 pt-5">Sezione Romance:</h2>
         <Row style={{ overflow: "auto" }} className="pt-3 flex-nowrap">
           {books4.map((book, index) => (
-            <Col key={`Book-${index}`} className="pb-3 px-2">
+            <Col key={`Romance-${index}`} className="pb-3 px-2">
               <Card className="shadow libri">
                 <Card.Img variant="top" className="img-fluid" id="image-card" src={book.img} />
                 <Card.Body>
@@ -68,10 +68,10 @@ class AllTheBooks extends Component {
             </Col>
           ))}
         </Row>
-        <h2 className="display-4 pt-5">Sezione Shi-fi:</h2>
+        <h2 className="display-4 pt-5">Sezione Sci-fi:</h2>
         <Row style={{ overflow: "auto" }} className="pt-3 flex-nowrap">
           {books5.map((book, index) => (
-            <Col key={`Book-${index}`} className="pb-3 px-2">
+            <Col key={`Scifi-${index}`} className="pb-3 px-2">
               <Card className="shadow libri">
                 <Card.Img variant="top" className="img-fluid" id="image-card" src={book.img} />
                 <Card.Body>
