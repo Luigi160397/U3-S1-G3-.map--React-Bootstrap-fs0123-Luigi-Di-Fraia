@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../logo.png";
 
 const MyNavbar = () => (
-  <Navbar bg="light" expand="lg">
+  <Navbar bg="light" expand="lg" className="shadow-sm sticky-top">
     <Container fluid>
       <Navbar.Brand href="#home">
         <img src={logo} alt="logo" width={40} height={40} className="me-1" />

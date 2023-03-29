@@ -8,14 +8,14 @@ class AllTheBooks extends Component {
   render() {
     return (
       <Container>
-        <Row xs="2" md="2" lg="4" className="py-3">
-          {books.map((book, index) => (
-            <Col key={`Book-${index}`} className="pb-3 px-2">
-              <Card>
+        <Row xs="2" md="2" lg="4" className="py-5">
+          {books.map(book => (
+            <Col key={`Book-${book.id}`} className="pb-3 px-2">
+              <Card className="shadow">
                 <Card.Img variant="top" className="img-fluid" id="image-card" src={book.img} />
                 <Card.Body>
                   <Card.Title className="text-truncate">{book.title}</Card.Title>
-                  <Card.Text>Price: {book.price} €</Card.Text>
+                  <Card.Text>Prezzo: {book.price} €</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
